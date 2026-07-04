@@ -153,7 +153,7 @@ The completed solution was deployed through:
 
 ## Azure SQL Connection
 
-![Azure SQL Connection](screenshots/sql_azure_connection.png)
+![Azure SQL Connection](screenshots/sql_azure connection.png)
 
 ---
 
