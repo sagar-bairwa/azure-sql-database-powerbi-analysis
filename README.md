@@ -1,238 +1,193 @@
-# ☁️ End-to-End Azure SQL Database Analytics using Power BI
+# Azure SQL Database Analytics | Power BI Service
 
-An end-to-end Business Intelligence project demonstrating how **Azure SQL Database**, **SQL Server Management Studio (SSMS)**, **Power BI Desktop**, and **Power BI Service** work together to build a cloud-based analytics solution.
+An end-to-end Business Intelligence project demonstrating how **Azure SQL Database**, **Power BI Desktop**, **Power Query**, **DAX**, and **Power BI Service** work together to build a cloud-based analytics solution.
 
-The project follows a practical enterprise workflow where raw business data is uploaded to Azure SQL Database, cleaned using SQL, connected to Power BI Desktop for reporting, and finally deployed to Power BI Service as a shareable Power BI App.
-
----
-
-# 📌 Business Problem
-
-Organizations increasingly store operational data in cloud-hosted databases instead of local servers. Business analysts require a centralized, secure, and scalable data source that can be accessed from anywhere while supporting reporting, collaboration, and deployment.
-
-The objective of this project is to demonstrate how Azure SQL Database can serve as the cloud data source for an end-to-end reporting solution using Power BI.
+The project showcases the complete reporting lifecycle, from uploading data into Azure SQL Database to building interactive dashboards and publishing them through Power BI Service as a Power BI App.
 
 ---
 
-# ✅ Solution
+## 🛠 Tech Stack
 
-This project implements a complete cloud reporting workflow by:
-
-- Creating an Azure SQL Database and SQL Server.
-- Connecting SQL Server Management Studio (SSMS) to Azure SQL.
-- Importing CSV data into Azure SQL Database.
-- Performing SQL-based data cleaning and preparation.
-- Connecting Power BI Desktop directly to Azure SQL Database.
-- Applying additional transformations using Power Query.
-- Creating calculated columns and business measures using DAX.
-- Designing an interactive two-page Power BI report.
-- Publishing the report to Power BI Service.
-- Creating a Power BI Workspace and deploying the report as a Power BI App.
+<p align="left">
+  <img src="https://img.shields.io/badge/Azure_SQL_Database-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Power_BI_Service-F2C811?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Power_BI_App-5C2D91?style=for-the-badge"/>
+</p>
 
 ---
 
-# 🔄 End-to-End Project Workflow
+## Project Workflow
+
+> **Workflow diagram will be added here**
 
 ```text
-CSV Dataset
-      │
-      ▼
 Azure SQL Database
-      │
-      ▼
+        │
+        ▼
 SQL Data Cleaning
-      │
-      ▼
+        │
+        ▼
 Power BI Desktop
-      │
-      ▼
-Power Query
-      │
-      ▼
-DAX Measures
-      │
-      ▼
-Interactive Dashboard
-      │
-      ▼
-Publish to Power BI Service
-      │
-      ▼
-Workspace
-      │
-      ▼
-Power BI App
-```
-
----
-
-# 🏗️ Architecture
-
-```
-CSV File
-    │
-    ▼
-Azure SQL Database
-    │
-    ▼
-SQL Cleaning & Validation
-    │
-    ▼
-Power BI Desktop
-    │
-    ▼
-Power Query
-    │
-    ▼
-DAX Measures
-    │
-    ▼
-Interactive Report
-    │
-    ▼
+        │
+        ▼
+Power Query + DAX
+        │
+        ▼
 Power BI Service
-    │
-    ▼
-Workspace
-    │
-    ▼
+        │
+        ▼
 Power BI App
 ```
 
 ---
 
-# 🛠️ Technologies Used
+## Project Overview
 
-- Microsoft Azure SQL Database
-- Azure SQL Server
-- SQL Server Management Studio (SSMS)
-- Microsoft SQL
-- Power BI Desktop
-- Power Query
-- DAX
-- Power BI Service
-- Power BI Workspace
-- Power BI App
+This project demonstrates a complete cloud-based reporting workflow using Azure SQL Database and Power BI.
+
+The solution covers the entire reporting lifecycle, including cloud data storage, SQL-based data preparation, dashboard development, report publishing, and cloud distribution through Power BI Apps.
 
 ---
 
-# ⭐ Project Highlights
+## Business Problem
 
-- Created a cloud-hosted Azure SQL Database.
-- Configured Azure SQL Server connectivity.
-- Connected SSMS to Azure SQL Database.
-- Imported CSV dataset into Azure SQL.
-- Cleaned and transformed data using SQL.
-- Connected Power BI Desktop to Azure SQL Database.
-- Performed additional transformations using Power Query.
-- Built calculated columns and business metrics using DAX.
-- Designed an interactive two-page Power BI report.
-- Published the report to Power BI Service.
-- Created a dedicated Workspace.
-- Built and deployed a Power BI App.
-- Demonstrated an end-to-end cloud reporting workflow.
+A retail company wants to centralize product sales data inside a cloud database and provide business users with an interactive reporting solution.
+
+The solution should:
+
+- Store data in Azure SQL Database
+- Perform SQL-based data preparation
+- Build interactive dashboards
+- Publish reports to Power BI Service
+- Share reports through Power BI Apps
 
 ---
 
-# 📂 Repository Structure
+## Solution
 
-```
-azure-sql-database-powerbi-analysis
-│
-├── Azure PowerBi Report.pbix
-├── Men+Tshirt.csv
-├── README.md
-│
-└── screenshots
-    ├── dashboard.png
-    ├── data_cleaning_at_azure_query_editor.png
-    ├── loading_data_from_azure_sql_to_powerbi_desktop.png
-    ├── publish_powerbi_app.png
-    ├── publish_to_powerbi_services.png
-    └── sql_azure_connection.png
-```
+The implemented workflow includes:
+
+- Uploading a CSV dataset to Azure SQL Database
+- Performing SQL-based data cleaning
+- Connecting Power BI Desktop to Azure SQL Database
+- Transforming data using Power Query
+- Creating DAX measures
+- Designing a multi-page interactive report
+- Publishing the report to Power BI Service
+- Creating a Power BI App for report sharing
 
 ---
 
-# ⚙️ Implementation Steps
+## Technology Overview
 
-## Step 1 — Azure SQL Database Setup
-
-- Created a new Azure SQL Server.
-- Created a dedicated Azure SQL Database.
-- Configured firewall rules.
-- Generated server credentials.
-
----
-
-## Step 2 — Data Import
-
-- Connected SSMS with Azure SQL Server.
-- Imported the CSV dataset.
-- Created the required database table.
+| Category | Technology |
+|-----------|------------|
+| Cloud Database | Azure SQL Database |
+| Query Language | SQL |
+| Data Preparation | Power Query |
+| Analytics | DAX |
+| Visualization | Power BI Desktop |
+| Cloud Reporting | Power BI Service |
+| Report Distribution | Power BI App |
 
 ---
 
-## Step 3 — SQL Data Cleaning
+## Project Features
 
-Performed data preparation using SQL including:
-
-- Data validation
-- Data cleaning
-- Null handling
-- Standardization
-- Basic transformations
-
----
-
-## Step 4 — Power BI Desktop
-
-- Connected Power BI Desktop to Azure SQL Database.
-- Loaded the cleaned dataset.
-- Built the data model.
-
----
-
-## Step 5 — Data Transformation
-
-Performed additional transformations using Power Query.
-
-Created:
-
-- Custom Columns
-- Conditional Columns
-- Data Type Formatting
-- Query Transformations
-
----
-
-## Step 6 — Dashboard Development
-
-Developed a two-page interactive Power BI report using:
-
-- KPI Cards
-- Charts
-- Slicers
+- Azure SQL Database Integration
+- SQL-based Data Cleaning
+- Cloud Database Connectivity
+- Power Query Transformations
 - DAX Measures
-- Business Insights
+- Interactive Dashboard
+- Multi-page Reporting
+- Power BI Service Deployment
+- Power BI App Publishing
 
 ---
 
-## Step 7 — Deployment
+# Dashboard Pages
 
-- Published the report to Power BI Service.
-- Created a Workspace.
-- Deployed the report as a Power BI App.
+## Brand Performance Overview
 
----
+This page includes:
 
-# 📸 Project Screenshots
-
-## Dashboard
+- Total Products
+- Average Sales Price
+- Average Profit %
+- Average Discount %
+- Brand Performance Comparison
 
 ![Dashboard](screenshots/dashboard.png)
 
 ---
+
+## Brand Analytics
+
+This page analyzes:
+
+- Top 5 Brands by Average Discount
+- Top 5 Brands by Product Variety
+- Top 5 Brands by Average Sales Price
+- Top 5 Brands by Average Profit
+- Bottom 5 Brands by Profit %
+
+---
+
+## Azure SQL Implementation
+
+This project demonstrates:
+
+- Azure SQL Server Creation
+- Azure SQL Database Creation
+- CSV Import into Azure SQL Database
+- SQL Data Cleaning
+- Secure Power BI Connectivity
+
+---
+
+## Power BI Development
+
+### Power Query
+
+- Data Cleaning
+- Data Transformation
+- Custom Columns
+
+### DAX
+
+- Profit %
+- Discount %
+- Cost Price
+- Business KPIs
+
+### Visualizations
+
+- KPI Cards
+- Bar Charts
+- Donut Charts
+- Ribbon Charts
+- Area Charts
+- Interactive Filters
+
+---
+
+## Cloud Deployment
+
+The completed report was deployed through:
+
+- Power BI Service
+- Workspace Publishing
+- Power BI App Creation
+- Cloud-based Report Sharing
+
+---
+
+# Project Screenshots
 
 ## Azure SQL Connection
 
@@ -246,15 +201,15 @@ Developed a two-page interactive Power BI report using:
 
 ---
 
-## Loading Azure SQL into Power BI
+## Loading Data into Power BI
 
-![Power BI Connection](screenshots/loading_data_from_azure_sql_to_powerbi_desktop.png)
+![Loading Data](screenshots/loading_data_from_azure_sql_to_powerbi_desktop.png)
 
 ---
 
 ## Publishing to Power BI Service
 
-![Power BI Service](screenshots/publish_to_powerbi_services.png)
+![Publishing](screenshots/publish_to_power_bi_services.png)
 
 ---
 
@@ -264,72 +219,92 @@ Developed a two-page interactive Power BI report using:
 
 ---
 
-# 💼 Skills Demonstrated
+## Final Dashboard
 
-- Azure SQL Database
-- Cloud Database Management
-- SQL
-- SQL Server Management Studio
-- Data Cleaning
-- Power Query
-- DAX
-- Power BI Desktop
-- Power BI Service
-- Workspace Management
-- Power BI App Deployment
-- Dashboard Development
-- Data Transformation
-- Business Intelligence
-- Cloud Analytics
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
-# 📦 Project Deliverables
+## Project Highlights
 
-- Azure SQL Database Setup
+- End-to-End Azure SQL Analytics Workflow
+- Azure SQL Database Integration
 - SQL Data Cleaning
-- Interactive Power BI Dashboard
-- Power BI Desktop Report (.pbix)
+- Power Query Transformations
+- DAX Measures
+- Interactive Dashboard Development
 - Power BI Service Deployment
-- Power BI App
-- Project Documentation
+- Power BI App Publishing
 
 ---
 
-# 🎯 Learning Outcomes
+## Skills Demonstrated
 
-This project strengthened my practical understanding of:
+### Cloud Technologies
 
 - Azure SQL Database
-- Cloud-hosted Relational Databases
-- SQL Data Cleaning
-- Power BI Desktop
+- Cloud Database Connectivity
+
+### SQL
+
+- Data Cleaning
+- Data Preparation
+- Query Execution
+
+### Power BI
+
 - Power Query
 - DAX
+- Dashboard Development
+- Data Visualization
+
+### Cloud Reporting
+
 - Power BI Service
 - Workspace Management
-- Power BI App Deployment
-- End-to-End Cloud Reporting Workflow
+- Power BI App Publishing
 
 ---
 
-# 🚀 Future Enhancements
+## Repository Structure
 
-- Implement Row-Level Security (RLS)
-- Configure Scheduled Refresh
-- Connect Azure Data Factory
-- Integrate Azure Blob Storage
-- Build Incremental Refresh
-- Create Deployment Pipelines
-- Add Multiple Data Sources
+```text
+azure-sql-database-powerbi-analysis
+│
+├── README.md
+├── BUSINESS_REQUIREMENTS.md
+├── Azure PowerBi Report.pbix
+├── Men+Tshirt.csv
+│
+└── screenshots
+    ├── dashboard.png
+    ├── sql_azure_connection.png
+    ├── data_cleaning_at_azure_query_editor.png
+    ├── loading_data_from_azure_sql_to_powerbi_desktop.png
+    ├── publish_to_power_bi_services.png
+    └── publish_powerbi_app.png
+```
 
 ---
 
-# 👨‍💻 Author
+## Project Documentation
+
+📄 **Business Requirements**
+
+`BUSINESS_REQUIREMENTS.md`
+
+---
+
+## Author
 
 **Sagar Bairwa**
 
-- GitHub: https://github.com/sagar-bairwa
-- LinkedIn: https://linkedin.com/in/sagarbairwa
+📧 sagar.bairwa.tech@gmail.com
 
-⭐ If you found this project helpful, consider giving it a star.
+💼 https://linkedin.com/in/sagarbairwa
+
+💻 https://github.com/sagar-bairwa
+
+---
+
+⭐ If you found this project helpful, consider giving it a Star.
