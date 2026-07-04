@@ -28,9 +28,9 @@ The project showcases the complete reporting lifecycle, from importing data into
 
 ---
 
-# Workflow
+# Project Workflow
 
-> *(Workflow diagram will be added here)*
+![Workflow](screenshots/workflow.png)
 
 ---
 
@@ -68,32 +68,6 @@ The solution follows a complete cloud analytics workflow:
 - Design an interactive two-page dashboard
 - Publish reports to Power BI Service
 - Create a Power BI App for report distribution
-
----
-
-# Business Value
-
-This solution provides:
-
-- Centralized cloud database
-- Secure cloud connectivity
-- Interactive business reporting
-- Easy report distribution
-- Reduced dependency on local files
-- Scalable analytics workflow
-
----
-
-# Key Cloud Capabilities
-
-- Azure SQL Database Integration
-- SQL Data Cleaning
-- Cloud Database Connectivity
-- Power Query Transformations
-- DAX Measures
-- Interactive Dashboard Development
-- Power BI Service Deployment
-- Power BI App Publishing
 
 ---
 
@@ -177,12 +151,6 @@ The completed solution was deployed through:
 
 # Project Screenshots
 
-## Azure SQL Connection
-
-![Azure SQL Connection](screenshots/sql_azure_connection.png)
-
----
-
 ## SQL Data Cleaning
 
 ![SQL Cleaning](screenshots/data_cleaning_at_azure_query_editor.png)
@@ -197,7 +165,7 @@ The completed solution was deployed through:
 
 ## Publishing to Power BI Service
 
-![Publishing](screenshots/publish_to_power_bi_services.png)
+![Publishing](screenshots/publish_to_powerbi_services.png)
 
 ---
 
