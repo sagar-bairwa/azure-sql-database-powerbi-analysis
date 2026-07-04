@@ -151,12 +151,6 @@ The completed solution was deployed through:
 
 # Project Screenshots
 
-## Azure SQL Connection
-
-![Azure SQL Connection](screenshots/sql_azure connection.png)
-
----
-
 ## SQL Data Cleaning
 
 ![SQL Cleaning](screenshots/data_cleaning_at_azure_query_editor.png)
@@ -171,7 +165,7 @@ The completed solution was deployed through:
 
 ## Publishing to Power BI Service
 
-![Publishing](screenshots/publish_to_power_bi_services.png)
+![Publishing](screenshots/publish_to_powerbi_services.png)
 
 ---
 
