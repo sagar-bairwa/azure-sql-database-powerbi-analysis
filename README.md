@@ -28,9 +28,9 @@ The project showcases the complete reporting lifecycle, from importing data into
 
 ---
 
-# Workflow
+# Project Workflow
 
-> *(Workflow diagram will be added here)*
+![Workflow](screenshots/workflow.png)
 
 ---
 
