@@ -71,32 +71,6 @@ The solution follows a complete cloud analytics workflow:
 
 ---
 
-# Business Value
-
-This solution provides:
-
-- Centralized cloud database
-- Secure cloud connectivity
-- Interactive business reporting
-- Easy report distribution
-- Reduced dependency on local files
-- Scalable analytics workflow
-
----
-
-# Key Cloud Capabilities
-
-- Azure SQL Database Integration
-- SQL Data Cleaning
-- Cloud Database Connectivity
-- Power Query Transformations
-- DAX Measures
-- Interactive Dashboard Development
-- Power BI Service Deployment
-- Power BI App Publishing
-
----
-
 # Dashboard Preview
 
 ## Brand Performance Overview
