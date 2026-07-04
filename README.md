@@ -175,19 +175,6 @@ The completed solution was deployed through:
 
 ---
 
-# Project Highlights
-
-- End-to-End Azure SQL Analytics Workflow
-- Azure SQL Database Integration
-- SQL Data Cleaning
-- Cloud Database Connectivity
-- Power Query Transformations
-- DAX Measures
-- Interactive Dashboard Development
-- Power BI Service Deployment
-- Power BI App Distribution
-
----
 
 # Skills Demonstrated
 
@@ -239,13 +226,6 @@ azure-sql-database-powerbi-analysis
 
 ---
 
-# Project Documentation
-
-📄 **Business Requirements**
-
-`BUSINESS_REQUIREMENTS.md`
-
----
 
 # Author
 
