@@ -1,120 +1,107 @@
-# Azure SQL Database Analytics | Power BI Service
+# End-to-End Azure SQL Database Analytics | Power BI Service
 
 An end-to-end Business Intelligence project demonstrating how **Azure SQL Database**, **Power BI Desktop**, **Power Query**, **DAX**, and **Power BI Service** work together to build a cloud-based analytics solution.
 
-The project showcases the complete reporting lifecycle, from uploading data into Azure SQL Database to building interactive dashboards and publishing them through Power BI Service as a Power BI App.
+The project showcases the complete reporting lifecycle, from importing data into Azure SQL Database to developing interactive Power BI dashboards and distributing them through Power BI Apps.
 
 ---
 
 ## 🛠 Tech Stack
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Azure_SQL_Database-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Power_BI_Service-F2C811?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Power_BI_App-5C2D91?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Azure_SQL_Database-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Power_BI_Service-F2C811?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Power_BI_App-5C2D91?style=for-the-badge"/>
+
 </p>
 
 ---
 
-## Project Workflow
+# Workflow
 
-> **Workflow diagram will be added here**
-
-```text
-Azure SQL Database
-        │
-        ▼
-SQL Data Cleaning
-        │
-        ▼
-Power BI Desktop
-        │
-        ▼
-Power Query + DAX
-        │
-        ▼
-Power BI Service
-        │
-        ▼
-Power BI App
-```
+> *(Workflow diagram will be added here)*
 
 ---
 
-## Project Overview
+# Project Overview
 
-This project demonstrates a complete cloud-based reporting workflow using Azure SQL Database and Power BI.
+Organizations increasingly rely on cloud databases to centralize business data and enable scalable reporting solutions.
 
-The solution covers the entire reporting lifecycle, including cloud data storage, SQL-based data preparation, dashboard development, report publishing, and cloud distribution through Power BI Apps.
+This project demonstrates how Azure SQL Database integrates with Power BI to create a modern cloud-based reporting workflow, from cloud data storage and SQL-based data preparation to dashboard development, deployment, and report sharing.
 
 ---
 
-## Business Problem
+# Business Problem
 
-A retail company wants to centralize product sales data inside a cloud database and provide business users with an interactive reporting solution.
+A retail organization wants to centralize its product sales data inside a cloud database and provide business users with an interactive reporting solution that can be securely shared across teams.
 
-The solution should:
+The reporting solution should:
 
-- Store data in Azure SQL Database
+- Store business data in Azure SQL Database
 - Perform SQL-based data preparation
 - Build interactive dashboards
 - Publish reports to Power BI Service
-- Share reports through Power BI Apps
+- Share reports using Power BI Apps
 
 ---
 
-## Solution
+# Solution
 
-The implemented workflow includes:
+The solution follows a complete cloud analytics workflow:
 
-- Uploading a CSV dataset to Azure SQL Database
-- Performing SQL-based data cleaning
-- Connecting Power BI Desktop to Azure SQL Database
-- Transforming data using Power Query
-- Creating DAX measures
-- Designing a multi-page interactive report
-- Publishing the report to Power BI Service
-- Creating a Power BI App for report sharing
-
----
-
-## Technology Overview
-
-| Category | Technology |
-|-----------|------------|
-| Cloud Database | Azure SQL Database |
-| Query Language | SQL |
-| Data Preparation | Power Query |
-| Analytics | DAX |
-| Visualization | Power BI Desktop |
-| Cloud Reporting | Power BI Service |
-| Report Distribution | Power BI App |
+- Upload CSV dataset into Azure SQL Database
+- Clean and prepare data using SQL
+- Connect Power BI Desktop to Azure SQL Database
+- Transform data using Power Query
+- Create business KPIs using DAX
+- Design an interactive two-page dashboard
+- Publish reports to Power BI Service
+- Create a Power BI App for report distribution
 
 ---
 
-## Project Features
+# Business Value
+
+This solution provides:
+
+- Centralized cloud database
+- Secure cloud connectivity
+- Interactive business reporting
+- Easy report distribution
+- Reduced dependency on local files
+- Scalable analytics workflow
+
+---
+
+# Key Cloud Capabilities
 
 - Azure SQL Database Integration
-- SQL-based Data Cleaning
+- SQL Data Cleaning
 - Cloud Database Connectivity
 - Power Query Transformations
 - DAX Measures
-- Interactive Dashboard
-- Multi-page Reporting
+- Interactive Dashboard Development
 - Power BI Service Deployment
 - Power BI App Publishing
 
 ---
 
-# Dashboard Pages
+# Dashboard Preview
 
 ## Brand Performance Overview
 
-This page includes:
+Provides an overview of:
 
 - Total Products
 - Average Sales Price
@@ -128,7 +115,7 @@ This page includes:
 
 ## Brand Analytics
 
-This page analyzes:
+The second report page analyzes:
 
 - Top 5 Brands by Average Discount
 - Top 5 Brands by Product Variety
@@ -138,34 +125,35 @@ This page analyzes:
 
 ---
 
-## Azure SQL Implementation
+# Cloud Database Implementation
 
-This project demonstrates:
+The project demonstrates:
 
 - Azure SQL Server Creation
 - Azure SQL Database Creation
 - CSV Import into Azure SQL Database
-- SQL Data Cleaning
+- SQL-based Data Cleaning
 - Secure Power BI Connectivity
 
 ---
 
-## Power BI Development
+# Power BI Development
 
-### Power Query
+### Data Preparation
 
+- Power Query
 - Data Cleaning
 - Data Transformation
 - Custom Columns
 
-### DAX
+### Analytics
 
+- DAX Measures
 - Profit %
 - Discount %
-- Cost Price
 - Business KPIs
 
-### Visualizations
+### Visualization
 
 - KPI Cards
 - Bar Charts
@@ -176,9 +164,9 @@ This project demonstrates:
 
 ---
 
-## Cloud Deployment
+# Cloud Deployment
 
-The completed report was deployed through:
+The completed solution was deployed through:
 
 - Power BI Service
 - Workspace Publishing
@@ -213,52 +201,47 @@ The completed report was deployed through:
 
 ---
 
-## Power BI App
+## Creating Power BI App
 
 ![Power BI App](screenshots/publish_powerbi_app.png)
 
 ---
 
-## Final Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-## Project Highlights
+# Project Highlights
 
 - End-to-End Azure SQL Analytics Workflow
 - Azure SQL Database Integration
 - SQL Data Cleaning
+- Cloud Database Connectivity
 - Power Query Transformations
 - DAX Measures
 - Interactive Dashboard Development
 - Power BI Service Deployment
-- Power BI App Publishing
+- Power BI App Distribution
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
-### Cloud Technologies
+## Cloud Technologies
 
 - Azure SQL Database
 - Cloud Database Connectivity
 
-### SQL
+## SQL
 
 - Data Cleaning
 - Data Preparation
 - Query Execution
 
-### Power BI
+## Power BI
 
 - Power Query
 - DAX
 - Dashboard Development
 - Data Visualization
 
-### Cloud Reporting
+## Cloud Reporting
 
 - Power BI Service
 - Workspace Management
@@ -266,7 +249,7 @@ The completed report was deployed through:
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 azure-sql-database-powerbi-analysis
@@ -278,6 +261,7 @@ azure-sql-database-powerbi-analysis
 │
 └── screenshots
     ├── dashboard.png
+    ├── workflow.png
     ├── sql_azure_connection.png
     ├── data_cleaning_at_azure_query_editor.png
     ├── loading_data_from_azure_sql_to_powerbi_desktop.png
@@ -287,7 +271,7 @@ azure-sql-database-powerbi-analysis
 
 ---
 
-## Project Documentation
+# Project Documentation
 
 📄 **Business Requirements**
 
@@ -295,15 +279,15 @@ azure-sql-database-powerbi-analysis
 
 ---
 
-## Author
+# Author
 
 **Sagar Bairwa**
 
 📧 sagar.bairwa.tech@gmail.com
 
-💼 https://linkedin.com/in/sagarbairwa
+💼 LinkedIn: https://linkedin.com/in/sagarbairwa
 
-💻 https://github.com/sagar-bairwa
+💻 GitHub: https://github.com/sagar-bairwa
 
 ---
 
