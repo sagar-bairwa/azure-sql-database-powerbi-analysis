@@ -1,4 +1,4 @@
-# End-to-End Azure SQL Database Analytics | Power BI Service
+# Cloud Business Intelligence Solution
 
 An end-to-end Business Intelligence project demonstrating how **Azure SQL Database**, **Power BI Desktop**, **Power Query**, **DAX**, and **Power BI Service** work together to build a cloud-based analytics solution.
 
